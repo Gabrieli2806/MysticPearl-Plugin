@@ -1,0 +1,9 @@
+name: EnderMen-Plugin
+version: 1.0
+main: com.g2806.EnderMen.MysticEnderPlugin
+api-version: 1.21
+description: Hace que los Enderman sean amigables y añade mecánicas con la Mistic Enderpearl.
+commands:
+  MysticPearl:
+    description: Da una Mistic Enderpearl al jugador.
+    usage: /<command>
