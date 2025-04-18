@@ -1,51 +1,55 @@
-GlowPlayer
+MysticEnder 
 
+is a lightweight and immersive Minecraft plugin that introduces the magical Mistic Enderpearl, a rare item with a 5–15% chance to spawn in loot chests. Wield this pearl to teleport with a standard cooldown, but beware of water and rain damage unless protected. Craft powerful potions and elixirs to gain water resistance, and befriend Endermen who defend you with poppies or blocks. Toggle your mystical journey with a simple command!
+ Features
+Mistic Enderpearl  
+Found in loot chests (5–15% chance).  
 
+Teleport with a 1-second cooldown, no fall damage.  
 
+Kept on death, but causes water/rain damage unless protected.
 
-Description
-GlowPlayer is a lightweight and easy-to-use Minecraft plugin that makes every player glow by default when they join the server. Players can toggle the glowing effect on or off using a simple command.
+Water Resistance  
+Potion of Water Resistance (Rare, blue name): Crafted with Water Bottle + Chorus Fruit, grants 1-hour protection.  
 
-✨ Features
-Automatic Glow on Join
-All players are set to glow on different color as soon as they join the server.
+Elixir of Eternal Water Resistance (Epic, purple name): Crafted with Potion + Enchanted Golden Apple, grants permanent protection.
 
-Player 1 - White  
-Player 2 - Blue  
-Player 3 - Red  
-Player 4 - Green  
-Player 5 - Yellow  
-Player 6 - Aqua  
-Player 7 - Gold  
-Player 8 - Light Purple  
-Player 9 - Dark Purple  
-Player 10 - Dark Blue  
-Player 11 - Dark Green  
-Player 12 - Dark Aqua  
-Player 13 - Dark Red  
-Player 14 - Gray  
-Player 15 - Dark Gray  
-Player 16 - Black
+Friendly Endermen  
+Near players with the Mistic Enderpearl:  
+Hold poppies or blocks (dirt, sand, etc.).  
 
-Note: Player 17+ Should start reusing colors 1 to 16
+Defend against attackers.  
 
-🔧 Installation
-Download the GlowPlayers-1.0.jar file from the Releases page.
+Won’t teleport away.
 
-Place the JAR file into your server's plugins folder.
+Command  
+/mysticpearl: Grants a Mistic Enderpearl to start your adventure.
+
+ Installation  
+Download the MysticEnder-1.0.jar file from the Releases page.  
+
+Place the JAR file into your server’s plugins folder.  
 
 Restart your server or reload plugins.
 
-🎮 Usage
-When a player joins, they will automatically start glowing witn a specific player color.
+ Usage  
+Find the Pearl: Explore dungeons, villages, or other structures to find the Mistic Enderpearl in chests (5–15% chance).  
 
-ℹ️ Plugin Information
-Plugin Name: GlowPlayer
+Teleport: Right-click the pearl to teleport (1-second cooldown).  
 
+Craft Protection:  
+Potion: Combine Water Bottle + Chorus Fruit for 1-hour water resistance.  
+
+Elixir: Combine Potion + Enchanted Golden Apple for permanent resistance.
+
+Befriend Endermen: Hold the pearl to make nearby Endermen friendly and defensive.  
+
+Command: Use /mysticpearl to obtain a pearl instantly.
+
+ Plugin Information
+Plugin Name: MysticEnder
 Version: 1.0
-
 API Version: 1.21
-
 Author: Gabrieli2806
+License: MIT  
 
-License: MIT
