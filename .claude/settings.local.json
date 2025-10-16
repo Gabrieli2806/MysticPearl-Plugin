@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gradlew build:*)",
+      "Bash(gradlew.bat build:*)",
+      "Bash(gradle build:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(find:*)",
+      "Bash(gradlew.bat clean build:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

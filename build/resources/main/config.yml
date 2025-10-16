@@ -1,0 +1,96 @@
+# ========================================
+# MysticPearl-Plugin Configuration
+# ========================================
+# Version: 1.0
+# Last Updated: 2025
+
+# Item Display Names and Lore
+items:
+  mystic-pearl:
+    name: "§5Mistic Enderpearl"
+    lore:
+      - "§7A mystical pearl imbued with End magic"
+      - "§7Teleports its wielder, but fears water"
+
+  water-resistance-potion:
+    name: "§bPotion of Water Resistance"
+    lore:
+      - "§7Grants water resistance for 1 hour"
+
+  elixir:
+    name: "§dElixir of Eternal Water Resistance"
+    lore:
+      - "§7Grants permanent water resistance"
+
+# Gameplay Configuration
+gameplay:
+  # Pearl spawn chances in loot chests (between 0 and 1)
+  pearl-spawn-chance-min: 0.05
+  pearl-spawn-chance-max: 0.15
+
+  # Pearl teleportation cooldown in ticks (1 second = 20 ticks)
+  pearl-teleport-cooldown-ticks: 20
+
+  # Water Resistance Potion duration in ticks (72000 = 1 hour)
+  water-resistance-potion-duration-ticks: 72000
+
+  # Detection range for friendly Endermen (in blocks)
+  friendly-enderman-detection-range: 16
+
+  # Task intervals (in ticks)
+  # Enderman behavior task (picking flowers/blocks)
+  enderman-behavior-task-interval-ticks: 40  # 2 seconds
+
+  # Pumpkin invisibility task
+  pumpkin-invisibility-task-interval-ticks: 20  # 1 second
+
+  # Friendly Enderman defense chance (0.0 to 1.0)
+  # When you're attacked, this is the chance Endermen will help
+  friendly-enderman-defense-chance: 0.5
+
+  # Enderman flower/block pickup chance (0.0 to 1.0)
+  # Chance per behavior task interval
+  enderman-flower-pickup-chance: 0.2
+
+  # Chance that held item is a flower vs block (0.0 to 1.0)
+  enderman-flower-chance: 0.75
+
+  # Blocks that Endermen can pick up
+  pickable-blocks:
+    - DIRT
+    - GRASS_BLOCK
+    - SAND
+    - POPPY
+    - DANDELION
+
+  # Pearl Interactions Settings
+  pearl-interactions:
+    # Enable double crouch random teleportation (true/false)
+    enable-double-crouch-teleport: true
+
+    # Double crouch time window in milliseconds
+    double-crouch-window-ms: 500
+
+    # Random teleport cooldown in ticks (20 ticks = 1 second)
+    random-teleport-cooldown-ticks: 60
+
+    # Maximum random teleport distance in blocks
+    random-teleport-max-distance: 32
+
+    # Minimum random teleport distance in blocks
+    random-teleport-min-distance: 5
+
+# Player Messages
+messages:
+  potion-consumed: "You feel resistant to water!"
+  potion-expired: "Your water resistance has worn off."
+  elixir-consumed: "You are now permanently resistant to water!"
+  pearl-received: "You received a Mistic Enderpearl!"
+  no-permission: "You must be an operator to use this command."
+  player-only: "This command can only be used by players."
+  random-teleport-cooldown: "Random teleport is on cooldown!"
+
+# Debug Settings
+debug:
+  enabled: false
+  log-events: false
