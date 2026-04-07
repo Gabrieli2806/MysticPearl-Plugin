@@ -1,25 +1,22 @@
-![EnderPearlogo](https://cdn.modrinth.com/data/cached_images/5f433f6a7af56a01a58c66815def4a836181842e.png)
+# MysticPearl-Plugin
+
+Makes Endermen friendly and adds magical mechanics with the Mistic Enderpearl. Features persistent player data and configurable settings.
+
+![Platform](https://img.shields.io/badge/platform-PaperMC%20%2F%20Bukkit-blue) ![API](https://img.shields.io/badge/api--version-1.21-green)
+
+## Commands
+
+| Command | Description | Permission |
+|---------|-------------|------------|
+| `/mysticpearl` | Gives you a Mistic Enderpearl (OP only) | `mysticpearl.use` |
+
+## How to Use
+
+1. Download the `.jar` from [Releases](https://github.com/Gabrieli2806/MysticPearl-Plugin/releases).
+2. Place it inside your server's `plugins/` folder.
+3. Restart or reload the server.
+4. Use the commands listed above in-game or from the console.
 
 ---
 
-A Rare, magical pearl. Dive into a world where the End’s magic is yours to command. Perfect for survival servers seeking a balanced, mystical twist!
-
----
-
-**Features**
-
-*Mystical Abilities & Weaknesses*
-* Endless Teleportation - Wielding the Mistic Enderpearl grants the ability to teleport with a standard 1-second cooldown.
-* Aquatic Vulnerability - Beware: water and rain will deal damage to the wielder unless properly protected.
-
-*Custom Crafting & Potions*
-* Water Resistance - Craft the *Rare Potion of Water Resistance* or the *Epic Elixir of Eternal Water Resistance* to shield yourself from aquatic harm.
-
-*Enderman Allies*
-* Peaceful Companions - Nearby Endermen become your allies, holding poppies or blocks for you.
-* Loyal Bodyguards - Allied Endermen will actively defend you from threats.
-* Grounded - Your new allies will stay put and follow you without randomly teleporting away.
-
-*Loot & Commands*
-* Exploration Reward - The Mistic Enderpearl has a 5–15% chance to appear naturally in generated loot chests.
-* Admin Summon - Instantly spawn the pearl using the `/mysticpearl` command.
+> **Repository:** [github.com/Gabrieli2806/MysticPearl-Plugin](https://github.com/Gabrieli2806/MysticPearl-Plugin)
